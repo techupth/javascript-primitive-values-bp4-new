@@ -5,3 +5,5 @@ let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
 
 console.log((numberOfSoldProduct / numberOfProductInStock) * 100);
+
+// เกิด NaN ขึ้นเนื่องจาก การนำ Number มาหารกับ undenfined
